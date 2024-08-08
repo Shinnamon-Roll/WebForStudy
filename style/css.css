@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Sriracha&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: "Sriracha", cursive;
+    font-style: normal;
 }
 body {
     background-color: rgb(255, 231, 180);
@@ -107,13 +111,40 @@ body {
 .mainTopic {
     width: 80%;
     height: 40vh;
-    letter-spacing: 3px;
-    line-height: 1.8;
     padding: 10px 20px 0 20px;
 }
+.mainTopic p {
+    text-indent: 50px;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    line-height: 1.8;
+}
 .mainDetail {
-    width: 80vh;
-    height: 20vh;
+    padding: 10px 20px 0 20px;
+    width: 80%;
+    height:40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+.subTopic {
+    padding: 20px 20px 0 20px;
+    width: 60%;
+    height: 40vh;
+}
+.subTopic .two {
+    text-indent: 30px;
+}
+.subDetail {
+    padding: 20px;
+    width: 40%;
+    height: 40vh;
+}
+.subDetail img {
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: 2px 4px 10px black;
 }
 
 /* ************************************foot************************* */
